@@ -31,20 +31,21 @@ The app should open at http://localhost:3000
 
 What the API Can Do
 For Users:
-POST /api/auth/register - Create account
 
 POST /api/auth/login - Sign in
 
-GET /api/auth/me - Check who's logged in
+GET /api/auth/me - Check who's logged in and Role 
+
+Sample User:
+- Username: manager
+- Password: password123
 
 For Loans:
 GET /api/loans - See all loans
 
 POST /api/loans - Add new loan
 
-PUT /api/loans/:id - Update loan
-
-DELETE /api/loans/:id - Remove loan
+PUT /api/loans/:id - Update loan Status 
 
 For Payments:
 GET /api/loans/:id/payments - See payments for a loan
